@@ -1,0 +1,6 @@
+PETALINUX_VER=2020.1
+VALIDATE_HW_CHKSUM=1
+HARDWARE_PATH=/home/sumin/workspace/Embedded_sysarr/Platform/Vivado/pynq_sysarr_test/design_1_wrapper.xsa
+HARDWARE_CHECKSUM=eb83b828f31b8909aa8f043bb88bbfa5
+YOCTO_SDK=ec2933eff44b6c49df87d39a9666aafb
+RFSCONFIG_CHKSUM=1fad1f014c498b5fbf7b5402f9c03e82

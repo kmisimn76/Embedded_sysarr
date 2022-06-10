@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hw_param.h" path="/home/sumin/workspace/Embedded_sysarr/Platform/VitisHLS/pynq_sysarr_test/hw_param.h"/>
+    <originFiles name="conv_sysarr.cpp" path="/home/sumin/workspace/Embedded_sysarr/Platform/VitisHLS/pynq_sysarr_test/conv_sysarr.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

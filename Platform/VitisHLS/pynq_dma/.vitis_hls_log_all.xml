@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="pynq_dma" solutionName="solution1" date="2021-05-04T23:10:28.767+0900" type="Warning"/>
+        <logs message="WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_74_1' (pynq_dma/core.cpp:74:36) in function 'core' more than one sub loop.&#xA;Resolution: For help on HLS 200-960 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-960.html" projectName="pynq_dma" solutionName="solution1" date="2021-05-04T23:10:26.505+0900" type="Warning"/>
+        <logs message="WARNING: [HLS 200-914] Completely partitioning array 'buffer.strb.V' (pynq_dma/core.cpp:81) accessed through non-constant indices on dimension 1 (pynq_dma/core.cpp:92:11), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.&#xA;Resolution: For help on HLS 200-914 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-914.html" projectName="pynq_dma" solutionName="solution1" date="2021-05-04T23:10:24.090+0900" type="Warning"/>
+        <logs message="WARNING: [HLS 200-914] Completely partitioning array 'buffer.keep.V' (pynq_dma/core.cpp:81) accessed through non-constant indices on dimension 1 (pynq_dma/core.cpp:92:11), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.&#xA;Resolution: For help on HLS 200-914 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-914.html" projectName="pynq_dma" solutionName="solution1" date="2021-05-04T23:10:24.085+0900" type="Warning"/>
+        <logs message="WARNING: [HLS 200-914] Completely partitioning array 'buffer.data.V' (pynq_dma/core.cpp:81) accessed through non-constant indices on dimension 1 (pynq_dma/core.cpp:93:12), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.&#xA;Resolution: For help on HLS 200-914 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-914.html" projectName="pynq_dma" solutionName="solution1" date="2021-05-04T23:10:24.080+0900" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
